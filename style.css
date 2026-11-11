@@ -2,7 +2,7 @@ body {
   background-color: #9a9a9a;
 }
 form {
-  color: black ;
+  color: purple ;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -13,7 +13,7 @@ form {
   background-color: rgba(128, 128, 128, 0);
 }
 form :hover {
-  background-color: gray;
+  background-color: red;
 }
 button {
   background-color: black;
