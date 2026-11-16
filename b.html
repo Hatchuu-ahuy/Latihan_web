@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #f0f8ff;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .kotak {
+        margin-top: 1rem;
+        border-radius: 12px;
+        width: 250px;
+        padding: 40px 30px;
+        background-color: #e8f5e9;
+      }
+      .kotak h1 {
+        color: #388e3c;
+        font-family: arial;
+      }
+      .kotak label {
+        display: flex;
+        font-family: sans-serif;
+        font-size: 12px;
+        margin-top: 1rem;
+      }
+      .kotak input[type="text"],
+      [type="password"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        margin-top: 3px;
+      }
+      .kotak button {
+        width: 100%;
+        background-color: #1b5e20;
+        color: #ffff;
+        font-weight: bold;
+        border: none;
+        margin-top: 1rem;
+        padding: 10px;
+        border-radius: 6px;
+      }
+      .kotak a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak">
+      <h1>LOGIN</h1>
+      <form>
+        <label for="username">Username</label>
+        <input type="text" id="username" required />
+        <label for="password">Password</label>
+        <input type="password" id="password" required />
+
+        <button type="submit" class="btn-login">LOGIN</button>
+      </form>
+      <a href="#">Lupa password?</a>
+    </div>
+  </body>
+</html>

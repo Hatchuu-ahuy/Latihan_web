@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+       background-color: #f0f8ff;
+       justify-content:center; 
+       align-items:center; 
+       display:flex;
+      }
+      .kotak {
+        background-color: #E8F5E9;
+        border-radius: 12px;
+        width: 250px;
+        padding: 40px 30px;
+        margin-top: 1rem;
+      }
+      .kotak h1 {
+        color: #388e3c;
+        font-family: Arial;
+      }
+      .kotak label {
+        display: flex;
+        font-family: sans-serif;
+        font-size: 12px;
+        margin-top: 1rem;
+      }
+      .kotak input[type="email"], [type="text"], [type="password"] {
+        width: 100%;
+        border-radius: 6px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-top: 3px;
+      }
+      .kotak button {
+        display: block;
+        width: 100%;
+        background-color: #1b5e20;
+        color: #ffff;
+        margin-top: 1rem;
+        border-radius: 6px;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .kotak a, p {
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak">
+      <h1>REGISTER</h1>
+      <form>
+        <label for="e-mail">E-Mail</label>
+        <input type="email" id="email" required>
+        <label for="username">Username</label>
+        <input type="text" id="username" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+        <button type="submit" class="btn-reg">REGISTER</button>
+      </form>
+      <p>Sudah punya akun?</p>
+      <a href="b.html">Login</a>
+    </div>
+  </body>
+</html>
